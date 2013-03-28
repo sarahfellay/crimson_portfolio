@@ -1,0 +1,592 @@
+/* Default: 940px and up  */
+    
+    /* General header styling for all pages*/
+    body
+    {
+        background: #000;
+        color: #FFF;
+        margin: 1% 12% 5% 12%;
+    }
+    
+    header
+    {
+        float: left;
+        width: 80%;
+        margin: 4% 15% 2% 15%;
+        padding: 1%;
+    }
+
+    #logo
+    {
+        width: 20%;
+        display: inline-block;
+        font: small-caps bold 1.5em Helvetica, sans-serif;
+    }
+
+    #logo a
+    {
+        text-decoration: none;
+        font: inherit;
+    }
+
+    nav
+    {
+        width: 70%;
+        display: inline-block;
+        margin: 0% 4% 0% 4%;
+    }
+
+    li
+    {
+        float: left;
+        margin: 0% 3% 0% 2%;
+        width: 20%;
+    }
+
+    li a
+    {
+        display: block;
+        padding: 10%;
+    }
+
+    ul
+    {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    ul a:link, a:visited
+    {
+        width: 100%;
+        padding: 2%;
+        text-decoration: none;
+        font: 1em Georgia, serif;
+        color: inherit;
+
+    }
+
+    ul a:hover, a:active
+    {
+        background-color: #FFF;
+        color: #000;
+    }
+
+
+    #content
+    {
+        float:left;
+        width: 80%;
+        margin: 1% 12% 10% 12%;
+        padding: 0% 5% 0% 5%;
+        font-family: Georgia, serif;
+        font-size: 1.4em;
+
+    }
+
+    /* Styling for contact and about pages*/
+
+    #content img
+    {
+        width: 100%;
+    }
+
+    #content h3
+    {
+        font-family: "Source Sans Pro", sans-serif;
+    }
+
+    #content #intro
+    {
+        font: small-caps 500 1.2em 'Source Sans Pro', sans-serif;
+    }
+
+    #content #maintext
+    {
+        color: #dad7d7;
+        font: normal italic 300 1.2em Georgia, serif;
+    }
+
+    #content em
+    {
+        font: small-caps 800 1.5em 'Source Sans Pro', sans-serif;
+        text-shadow: 0px 2px 3px #555;
+    }
+
+    .focus_picture
+    {
+        width: 95%;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+
+    .focus_picture:hover
+    {
+        border: 20px solid #FFF;
+    }
+
+    #purpose
+    {
+        float: left;
+        width: 40%;
+        color: #eee;
+        margin: 2%;
+
+    }
+
+    .heading
+    {
+        font: 400 3em "Asap", sans-serif;
+    }
+
+    .extra_info
+    {
+        font: 300 1em "Asap", sans-serif;
+    }
+
+    #contact
+    {
+        float: left;
+        width: 40%;
+        margin: 2%;
+        padding: 5% 1% 1% 2%;
+    }
+
+
+    /*Styling for the homepage*/
+
+    .image_element
+    {
+        float: left;
+        width: 300px;
+        height: 300px;
+    }
+
+    article
+    {
+        display: none;
+        position: relative;
+        top: 50px;
+        width: 80%;
+        text-align: center;
+        margin: 5% 5% 5% 10%;
+        font: small-caps bold 2em Helvetica, sans-serif;
+        color: #c61a1a;
+    }
+
+    aside
+    {
+        display: none;
+        position: relative;
+        top: 110px;
+        width: 100%;
+        margin: 0% 25% 0% 0%;
+        text-align: center;
+        font: small-caps 900 1.5em Helvetica, sans-serif;
+        color: #000;
+    }
+
+    #element1
+    {
+        background-image: url("images/1_house.jpg")
+    }
+
+    #element1:hover, #element1:active
+    {
+        background-image: url("images/1_house_hover.jpg");
+    }
+
+    #element1:hover article
+    {
+        display: block;
+    }
+
+    #element1:hover aside
+    {
+        display: block;
+    }
+
+    #element2
+    {
+        background-image: url("images/2_class.jpg")
+    }
+
+    #element2:hover
+    {
+        background-image: url("images/2_class_hover.jpg")
+    }
+
+    #element2:hover article
+    {
+        display: block;
+    }
+
+    #element2:hover aside
+    {
+        display: block;
+    }
+
+    #element3
+    {
+        background-image: url("images/3_concentration.jpg")
+    }
+
+    #element3:hover
+    {
+        background-image: url("images/3_concentration_hover.jpg")
+
+    }
+
+    #element3:hover article
+    {
+        display: block;
+        font-size: 1.5em;
+        margin-top: 60px;
+    }
+
+    #element3:hover aside
+    {
+        display: block;
+    }
+
+    #element4
+    {
+        background-image: url("images/4_hometown.jpg")
+    }
+
+    #element4:hover
+    {
+        background-image: url("images/4_hometown_hover.jpg")
+    }
+
+    #element4:hover article
+    {
+        display: block;
+    }
+
+    #element4:hover aside
+    {
+        display: block;
+    }
+
+    #element5
+    {
+        background-image: url("images/5_sarah.jpg")
+    }
+
+    #element5:hover
+    {
+        background-image: url("images/5_sarah_hover.jpg")
+    }
+
+    #element6
+    {
+        background-image: url("images/6_font.jpg")
+    }
+
+    #element6:hover
+    {
+        background-image: url("images/6_font_hover.jpg")
+    }
+
+    #element6:hover article
+    {
+        display: block;
+        font-size: 1.2em;
+        margin: 60px 0px 0px 30px;
+    }
+
+    #element6:hover aside
+    {
+        display: block;
+        margin-left: 10px;
+    }
+
+    /* Styling for the resume page */
+
+    #content h1
+    {
+        text-align: center;
+        font: small-caps 2em "Source Sans Pro", sans-serif;
+    }
+    .card
+    {
+        float: left;
+        height: 500px;
+        width: 300px;
+        background-color: #eee;
+        border-radius: 5%;
+        padding: 2% 2% 3% 2%;
+        margin: 1%;
+        color: #000;
+
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    .card:hover
+    {
+        background-color: #fff;
+        -webkit-transform: rotate(-10deg);
+        -moz-transform: rotate(-10deg);
+        -o-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+
+    .card h3
+    {
+        color: #6d6d6d;
+        text-shadow: 0px 2px 3px #FFF;
+    }
+
+    .card img
+    {
+        height: 50%;
+    }
+
+    /* Styling for the portfolio page*/
+    /* Adapted from tutorial at http://demo.marcofolio.net/3d_animation_css3 */
+
+    #work
+    { 
+        list-style: none;
+        margin: 100px 0;
+        width: 100%;
+    }
+
+    #work li
+    {
+        display: inline-block;
+        float: left;
+        width: 300px;
+        height: 700px;
+        margin-bottom: 10%;
+        -webkit-perspective: 500;
+        -webkit-transform-style: preserve-3d;
+        -webkit-transition-property: perspective;
+        -webkit-transition-duration: 0.5s;
+    }
+
+    #work li:hover
+    {
+        -webkit-perspective: 5000;
+    }
+     
+    #work li img
+    {
+        border:10px solid #fcfafa;
+        -webkit-transform: rotateY(30deg);
+        -moz-box-shadow:0 3px 10px #888;
+        -webkit-box-shadow:0 3px 10px #888;
+        -webkit-transition-property: transform;
+        -webkit-transition-duration: 0.5s;
+        width: 300px;
+        height: 500px;
+        margin-bottom: 10%;
+    }
+     
+    #work li:hover img
+    {
+        -webkit-transform: rotateY(0deg);
+    }
+
+    .work_info
+    {
+        border:10px solid #fcfafa;
+        padding:20px;
+        width:200px;
+        height:180px;
+        background-color:#deddcd;
+        margin:-195px 0 0 55px;
+        position: absolute;
+        -moz-box-shadow:0 20px 40px #888;
+        -webkit-box-shadow:0 20px 40px #888;
+        -webkit-transform: translateZ(30px) rotateY(30deg);
+        -webkit-transition-property: transform, box-shadow, margin;
+        -webkit-transition-duration: 0.5s;
+        margin-bottom: 5%;
+    }
+     
+    #work li:hover .work_info
+    {
+        -webkit-transform: rotateY(0deg);
+        -webkit-box-shadow:0 5px 10px #888;
+    }
+     
+    .work_info h3
+    {
+        color:#7a3f3a;
+        font-variant: small-caps;
+        font-family: Georgia, serif;
+        text-align:center;
+        padding: 0px;
+    }
+    
+    .work_info p
+    {
+        color: #000;
+        padding-bottom: 15px;
+        font: 1em "Source Sans Pro", sans-serif;
+    }
+
+/* Tablets and e-readers*/
+@media (min-width: 768px) and (max-width: 940px) {
+    
+    header
+    {
+        width: 100%;
+        margin-left: 15%;
+    }
+
+    #logo
+    {
+        width: 100%;
+        font-size: 3em;
+        margin-bottom: 2%;
+    }
+
+    nav
+    {
+        width: 80%;
+    }
+
+    li
+    {
+        float: left;
+        margin-right: 1%;
+        width: 20%;
+    }
+
+    li a
+    {
+        display: block;
+        padding: 2%;
+    }
+
+    #content
+    {
+        width: 600px;
+        margin: 0% 15% 0% 15%;
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 770px) {
+
+    body
+    {
+        margin: 1% 5% 1% 5%;
+    }
+
+    header
+    {
+        width: 80%;
+        padding-left: 4%;
+    }
+
+    #logo
+    {
+        width: 100%;
+        font-size: 3em;
+        margin: 5%;
+    }
+
+    nav
+    {
+        width: 100%;
+        margin: 2% 50% 2% 2%;
+    }
+
+    li
+    {
+        width: 40%;
+        margin: 1% 5% 2% 1%;
+
+    }
+
+    #content
+    {
+        width: 80%;
+        margin: 0% 10% 0% 20%;
+    }
+
+    /* The information that usually appears on hover on the hompage 
+        is already displayed, as smartphones have limited hover support. */
+
+    article, aside
+    {
+        display: block;
+    }
+
+    #element1
+    {
+        background-image: url("images/1_house_hover.jpg")
+    }
+    #element2
+    {
+        background-image: url("images/2_class_hover.jpg")
+    }
+    #element3
+    {
+        background-image: url("images/3_concentration_hover.jpg")
+    }
+
+    #element3 article
+    {
+        display: block;
+        font-size: 1.5em;
+        margin-top: 60px;
+    }
+
+    #element3 aside
+    {
+        display: block;
+    }
+
+    #element4
+    {
+        background-image: url("images/4_hometown_hover.jpg")
+    }
+    #element6
+    {
+        background-image: url("images/6_font_hover.jpg")
+    }
+
+    #element6 article
+    {
+        display: block;
+        font-size: 1.2em;
+        margin: 60px 0px 0px 30px;
+    }
+
+    #element6 aside
+    {
+        display: block;
+        margin-left: 10px;
+    }
+
+    #purpose
+    {
+        width: 80%;
+        padding: 1%;
+    }
+
+    .heading
+    {
+        font-size: 2em;
+    }
+
+    #contact
+    {
+        width: 80%;
+    }
+
+
+}
